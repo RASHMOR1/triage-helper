@@ -105,7 +105,7 @@ After setup:
 Install Claude Code support into one audit folder:
 
 ```bash
-python3 /pashov/triage-helper/scripts/install_claude_support.py \
+python3 /your-folder/triage-helper/scripts/install_claude_support.py \
   --scope project \
   --project-dir /path/to/folder1
 ```
@@ -113,7 +113,7 @@ python3 /pashov/triage-helper/scripts/install_claude_support.py \
 Or install for the current user:
 
 ```bash
-python3 /pashov/triage-helper/scripts/install_claude_support.py --scope user
+python3 /your-folder/triage-helper/scripts/install_claude_support.py --scope user
 ```
 
 Claude Code commands:
