@@ -55,7 +55,7 @@ triage-helper-output/
 Run setup:
 
 ```bash
-python3 /pashov/triage-helper/scripts/setup_triage.py \
+python3 /your-folder/triage-helper/scripts/setup_triage.py \
   --repo ./repo \
   --findings ./findings.md
 ```
@@ -63,7 +63,7 @@ python3 /pashov/triage-helper/scripts/setup_triage.py \
 With external docs:
 
 ```bash
-python3 /pashov/triage-helper/scripts/setup_triage.py \
+python3 /your-folder/triage-helper/scripts/setup_triage.py \
   --repo ./repo \
   --findings ./findings.md \
   --external-doc ./docs \
@@ -73,7 +73,7 @@ python3 /pashov/triage-helper/scripts/setup_triage.py \
 Look up one finding:
 
 ```bash
-python3 /pashov/triage-helper/scripts/lookup_finding.py M-24 \
+python3 /your-folder/triage-helper/scripts/lookup_finding.py M-24 \
   --context ./triage-helper-output/triage-context.json
 ```
 
@@ -85,7 +85,7 @@ Copy or symlink this folder into your Codex skills directory:
 
 ```bash
 mkdir -p ~/.codex/skills
-cp -r /pashov/triage-helper ~/.codex/skills/triage-helper
+cp -r /your-folder/triage-helper ~/.codex/skills/triage-helper
 ```
 
 Then invoke it from Codex:
